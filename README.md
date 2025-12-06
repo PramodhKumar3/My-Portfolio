@@ -1,4 +1,4 @@
-# 🚀 Tamminaina Pramodh Kumar – Backend Developer Portfolio
+# 🚀 T. Pramodh Kumar – Backend Developer Portfolio
 
 Welcome to my personal portfolio – designed to reflect my journey as a **Backend Engineer**, showcasing the tools I use, the systems I build, and how to reach out to me.
 
@@ -12,6 +12,7 @@ Welcome to my personal portfolio – designed to reflect my journey as a **Backe
       <img src="https://cdn-icons-png.flaticon.com/512/841/841364.png" alt="Portfolio" width="28" height="28"/>
     </a>
   </p>
+Visit Portfolio
 
 ---
 
