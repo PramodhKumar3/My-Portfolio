@@ -23,15 +23,15 @@ const Contact: React.FC = () => {
 
     try {
       const result1 = await emailjs.sendForm(
-        'service_7p6bl0r',
-        'template_9b7epea',
+        'service_lvle5rm',
+        'template_ils2krq',
         formRef.current,
-        'pv7Q47LC-sbtRx9bx'
+        'F29kWwUNMDE2er6_j'
       );
 
       const result2 = await emailjs.send(
-        'service_7p6bl0r',
-        'template_1jq0mnw',
+        'service_lvle5rm',
+        'template_ils2krq',
         {
           from_name: formData.user_name,
           reply_to: formData.user_email,
@@ -39,7 +39,7 @@ const Contact: React.FC = () => {
           message: formData.message,
           from_email: 'tamminainapramodhkumar6@gmail.com',
         },
-        'pv7Q47LC-sbtRx9bx'
+        'F29kWwUNMDE2er6_j'
       );
 
       if (result1.status === 200 && result2.status === 200) {
