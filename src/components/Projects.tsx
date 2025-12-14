@@ -2,6 +2,9 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Code, ExternalLink, Github, ArrowDown } from 'lucide-react';
 import { scroller } from 'react-scroll';
+import BlockChain from '../assets/BlockChain.jpeg';
+import Digital from '../assets/Digital.jpeg';
+import WanderLust from '../assets/WanderLust.jpeg';
 
 interface Project {
   id: number;
@@ -22,7 +25,7 @@ const Projects = () => {
       title: 'Digital Gold Wallet Microservices Backend',
       description:
         'A scalable digital wallet backend system using microservices, Spring Boot, Spring Security, and MySQL. Features include authentication, inventory, order, and product management.',
-      image: 'https://images.pexels.com/photos/4968391/pexels-photo-4968391.jpeg',
+      image: Digital,
       techStack: ['Java', 'Spring Boot', 'MySQL', 'Eureka', 'Microservices', 'Docker', 'Kubernetes', 'API-Gateway'],
       githubLink: 'https://github.com/PramodhKumar3/Digital-Gold-Wallet',
     },
@@ -31,7 +34,7 @@ const Projects = () => {
       title: 'WanderLust',
       description:
         'A Java Full Stack travel booking application with Angular for the frontend and Spring Boot with MySQL for the backend. Features include user authentication, trip planning, and reviews, providing a complete travel experience platform.',
-      image: 'https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg',
+      image: WanderLust,
       techStack: ['Java', 'Spring Boot', 'Angular', 'MySQL', 'REST APIs'],
       githubLink: 'https://github.com/PramodhKumar3/WanderLust',
     },
@@ -40,7 +43,7 @@ const Projects = () => {
       title: 'Blockchain-Based Organ Donation Management',
       description:
         'A blockchain-powered system that ensures transparency and security in organ donation management. It provides donor-recipient matching, immutable transaction records, and prevents data tampering in the healthcare system.',
-      image: 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg',
+      image: BlockChain,
       techStack: ['Blockchain', 'Ethereum', 'Solidity', 'Smart Contracts', 'HTML', 'CSS'],
       githubLink: 'https://github.com/PramodhKumar3/blockchain-based-management-for-organ-donation',
     },
@@ -63,6 +66,7 @@ const Projects = () => {
     // githubLink: 'https://github.com/PramodhKumar3/Gold-Wallet-with-Spring-Security',
     // },
   ];
+
   // Function to scroll smoothly to Experience section
   const scrollToExperience = () => {
     scroller.scrollTo('experience', {
