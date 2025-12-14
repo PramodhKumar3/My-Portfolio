@@ -63,7 +63,6 @@ const Projects = () => {
     // githubLink: 'https://github.com/PramodhKumar3/Gold-Wallet-with-Spring-Security',
     // },
   ];
-
   // Function to scroll smoothly to Experience section
   const scrollToExperience = () => {
     scroller.scrollTo('experience', {
